@@ -1,0 +1,11 @@
+
+
+<div class = "container" display ="flex-justify-content-center">
+  <div class="card" style="width: 32rem;">
+    <div class="card-body">
+      <h5>You said: <strong><%= params[:question] %></strong></h5>
+      <h5>Coach: <strong><%= @answer %></strong></h5>
+      <%= link_to "Reset", "/ask" %>
+    </div>
+  </div>
+  </div>
